@@ -4,19 +4,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductsComponent } from './components/products/products.component';
-import { SingleProductComponent } from './components/single-product/single-product.component';
 import { HearderComponent } from './components/hearder/hearder.component';
 import { CartComponent } from './components/cart/cart.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { AddProductComponent } from './components/add-product/add-product.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductsComponent,
-    SingleProductComponent,
     HearderComponent,
     CartComponent,
-    DashboardComponent
+    DashboardComponent,
+    AddProductComponent
+  
   ],
   imports: [
     BrowserModule,
