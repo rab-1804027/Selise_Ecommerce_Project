@@ -1,4 +1,5 @@
 <div class="product-list">
+    <a routerLink="/add-product"><h1 class="addProduct">Add-Product</h1></a>
     <h1>Product list</h1>
     <p class="p_msg">{{productMessage}}</p>
     <table class="">
@@ -24,6 +25,7 @@
                 <td>{{item.description}}</td>
                 <td>
                     <fa-icon (click)="deleteProduct(item.id)" [icon]="icon"></fa-icon>
+                    <a routerLink="/update-product"><fa-icon  [icon]="icon"></fa-icon></a>
                     <!-- <button (click)="deleteProduct(item.id)">Delete</button></td> -->
 
             </tr>

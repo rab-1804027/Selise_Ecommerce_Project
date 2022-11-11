@@ -1,5 +1,6 @@
 .product-list{
     padding-left: 20px;
+    /* padding-bottom: 20px; */
     
 }
 h1{
@@ -22,4 +23,18 @@ img{
 }
 .p_msg{
     text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.addProduct{
+    text-decoration: none;
+    color: blueviolet;
+    padding: 8px 25px;
+    transition: all .5 ease;
+}
+.addProduct:hover{
+    background-color:aquamarine; 
+   color:crimson;
+
 }

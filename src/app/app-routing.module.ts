@@ -4,23 +4,31 @@ import { AddProductComponent } from './components/add-product/add-product.compon
 import { CartComponent } from './components/cart/cart.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ProductsComponent } from './components/products/products.component';
+import { UpdateProductComponent } from './components/update-product/update-product.component';
 
 const routes: Routes = [
   {
-    path:'',
-    component:DashboardComponent
+    component:DashboardComponent,
+    path:''
+    
   },
   {
-    path:'cart',
-    component:CartComponent
+    component:CartComponent,
+    path:'cart'
+    
   },
   {
-    path:'products',
-    component:ProductsComponent
+    component:ProductsComponent,
+    path:'products'
+    
   },
   {
-    path:'add-product',
-    component:AddProductComponent
+    component:AddProductComponent,
+    path:'add-product'
+  },
+  {
+    component:UpdateProductComponent,
+    path:'update-product'
   }
 
 ];
