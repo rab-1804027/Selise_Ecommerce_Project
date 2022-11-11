@@ -36,5 +36,8 @@ a{
 .addProduct:hover{
     background-color:aquamarine; 
    color:crimson;
-
+}
+.edit-btn{
+    padding-left: 10px;
+    color: black;
 }

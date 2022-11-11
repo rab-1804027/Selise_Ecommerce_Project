@@ -1,8 +1,8 @@
 {
   "products": [
     {
-      "name": "I-phone 14",
-      "price": "158000",
+      "name": "iPhone 14",
+      "price": "155000",
       "category": "MobilePhone",
       "code": "i-14",
       "description": "iPhone 14 series is this",
@@ -10,17 +10,17 @@
       "id": 1
     },
     {
-      "name": "Samsung a52s",
-      "price": "42000",
+      "name": "Samsung A52s",
+      "price": "44000",
       "category": "MobilePhone",
-      "code": "s-a52",
+      "code": "S-A52s",
       "description": "This is a samsung phone with flagship feature",
       "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a52-4g.jpg",
       "id": 2
     },
     {
       "name": "Hp-Laptop",
-      "price": "70000",
+      "price": "75000",
       "category": "Laptop",
       "code": "hp-lap",
       "description": "This is a laptop with 8GB ram and 512 GB SSD",
