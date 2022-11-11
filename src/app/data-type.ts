@@ -4,5 +4,6 @@ export interface product{
     category:string,
     code:string,
     description:string,
-    image:string
+    image:string,
+    id:number
 }

@@ -1,1 +1,32 @@
-<h1>Product table will be shown here </h1>
+<div class="product-list">
+    <h1>Product list</h1>
+    <p class="p_msg">{{productMessage}}</p>
+    <table class="">
+        <thead>
+            <tr>
+                 <th>Image</th>
+                 <th>Name</th>
+                 <th>Price</th>
+                 <th>Category</th>
+                 <th>Code</th>
+                 <th>Description</th>
+                 <th>Action</th>
+                 <!-- <th>Image</th> -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of productList">
+                <td><img src="{{item.image}}" alt=""></td>
+                <td>{{item.name}}</td>
+                <td>{{item.price}}</td>
+                <td>{{item.category}}</td>
+                <td>{{item.code}}</td>
+                <td>{{item.description}}</td>
+                <td>
+                    <fa-icon (click)="deleteProduct(item.id)" [icon]="icon"></fa-icon>
+                    <!-- <button (click)="deleteProduct(item.id)">Delete</button></td> -->
+
+            </tr>
+        </tbody>
+    </table>
+</div>

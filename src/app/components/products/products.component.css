@@ -1,0 +1,25 @@
+.product-list{
+    padding-left: 20px;
+    
+}
+h1{
+    text-align: center;
+}
+table{
+    
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+table td,table th{
+    border:1px solid burlywood;
+    padding: 10px;
+    min-height: 160px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.p_msg{
+    text-align: center;
+}
