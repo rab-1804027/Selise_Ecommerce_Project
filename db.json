@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "name": "I phone 14",
+      "price": "140000",
+      "category": "Mobile Phone",
+      "code": "I-phone-140000",
+      "image": "https://cdn.vox-cdn.com/thumbor/cPeVH-m_b9pScRXzpCBW-nAHSfw=/0x0:2032x1355/1400x1400/filters:focal(1016x678:1017x679)/cdn.vox-cdn.com/uploads/chorus_asset/file/22863258/akrales_210917_4760_0175.jpg",
+      "description": "This is i phone bro",
+      "id": 1
+    },
+    {
+      "name": "I-phone 14",
+      "Price": "158000",
+      "Category": "Mobile Phone",
+      "Code": "i-15-ph",
+      "Description": "this is an i phone ",
+      "image": "https://cdn.vox-cdn.com/thumbor/cPeVH-m_b9pScRXzpCBW-nAHSfw=/0x0:2032x1355/1400x1400/filters:focal(1016x678:1017x679)/cdn.vox-cdn.com/uploads/chorus_asset/file/22863258/akrales_210917_4760_0175.jpg",
+      "id": 2
+    },
+    {
+      "name": "I-phone 14 pro max",
+      "Price": "210000",
+      "Category": "Mobile Phone",
+      "Code": "i-14-pro-mp",
+      "Description": "This is the Updated version of i-phone",
+      "image": "https://cdn.vox-cdn.com/thumbor/cPeVH-m_b9pScRXzpCBW-nAHSfw=/0x0:2032x1355/1400x1400/filters:focal(1016x678:1017x679)/cdn.vox-cdn.com/uploads/chorus_asset/file/22863258/akrales_210917_4760_0175.jpg",
+      "id": 3
+    },
+    {
+      "name": "I-phone 14 pro max",
+      "Price": "210000",
+      "Category": "Mobile Phone",
+      "Code": "i-14-pro-mp",
+      "Description": "This is the Updated version of i-phone",
+      "image": "https://cdn.vox-cdn.com/thumbor/cPeVH-m_b9pScRXzpCBW-nAHSfw=/0x0:2032x1355/1400x1400/filters:focal(1016x678:1017x679)/cdn.vox-cdn.com/uploads/chorus_asset/file/22863258/akrales_210917_4760_0175.jpg",
+      "id": 4
+    }
+  ]
+}
