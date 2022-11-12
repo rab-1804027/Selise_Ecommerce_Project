@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormsModule }   from '@angular/forms';
 import { product } from 'src/app/data-type';
 import { ProductService } from 'src/app/service/product.service';
+import { ActivatedRoute, Route, Router } from '@angular/router';
 
 
 @Component({
@@ -11,7 +12,7 @@ import { ProductService } from 'src/app/service/product.service';
 })
 export class AddProductComponent implements OnInit {
   addProductMessage:string|undefined;
-  constructor(private product:ProductService) { }
+  constructor(private product:ProductService, private route:ActivatedRoute , private router:Router) { }
 
   ngOnInit(): void {
   }
@@ -20,8 +21,13 @@ export class AddProductComponent implements OnInit {
       console.warn(result);
       if(result){
         this.addProductMessage="Product added successfully"
+        
       }
-      setTimeout(() =>this.addProductMessage=undefined,3000);
-    });
+    })
+      setTimeout(() =>{
+      this.addProductMessage=undefined,
+      this.router.navigate(['products']);
+    }, 1000);
   }
+ 
 }

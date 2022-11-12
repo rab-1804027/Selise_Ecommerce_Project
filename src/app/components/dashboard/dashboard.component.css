@@ -2,7 +2,7 @@
     align-items: center;
     position: relative;
     padding: 20px;
-    margin: 50px;
+    margin: 30px;
 }
 .card img{
     width: 200px;
@@ -12,6 +12,10 @@
     transition: 0.3s ease-in-out;
 }
 .card img:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+.card:hover{
     transition: 0.3s ease-in-out;
     transform: scale(1.1);
 }
