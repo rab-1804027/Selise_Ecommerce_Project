@@ -12,6 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule }   from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { UpdateProductComponent } from './components/update-product/update-product.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 // import { TablePaginationComponent } from './components/table-pagination/table-pagination.component';
 
@@ -32,7 +33,8 @@ import { UpdateProductComponent } from './components/update-product/update-produ
     BrowserAnimationsModule,
     HttpClientModule,
     FormsModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
